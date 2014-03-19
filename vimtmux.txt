@@ -6,7 +6,7 @@
       ▐▄▄▘▝▙▞  ▝▄ ▝▄▜ ▐▙▛ ▝▙▞ ▝▙▞  ▌  ▝▄▞     ▐   ▝▄▜  ▝▄ ▐▐▐ ▝▄▜     ▗▘▝▖▗▟▄  ▐▌ 
  
       ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▘
-                                                                             
+                                                                     #BetabeersPMI
 
  
 
@@ -23,20 +23,196 @@
  
       ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▘
 
+
+
+
+
+
+
+
+                   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                   ░░█░░░█▀█░░░▀█▀░█▀▀░█▀▄░█▄█░▀█▀░█▀█░█▀█░█░░░░
+                   ░░█░░░█▀█░░░░█░░█▀▀░█▀▄░█░█░░█░░█░█░█▀█░█░░░░
+                   ░░▀▀▀░▀░▀░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░░
+                   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+
+
+
+
+
+
+
+
+
+
 ╻  ┏━┓   ╺┳╸┏━╸┏━┓┏┳┓╻┏┓╻┏━┓╻  
 ┃  ┣━┫    ┃ ┣╸ ┣┳┛┃┃┃┃┃┗┫┣━┫┃  
 ┗━╸╹ ╹    ╹ ┗━╸╹┗╸╹ ╹╹╹ ╹╹ ╹┗━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 
     * Què és?
 
     * Terminal VS entorn gràfic.
 
-    * Filosofia Unix *
+    * Filosofia *Unix.
+       - Tot és un fitxer (stdin / stdout / stderr / /dev / /proc / pipes...).
+
+    * Tipus de terminal
+       - tty(s)
+       - xterm / gterm / konsole...
+       - guake / yakuake / tilda...
+       - screen / tmux
+       - "cygwin"
+
+    * Editors
+       - vi(m) / Emacs (Altres herbes: nano / pico / joe...)
+
+    * Accés remot
+       - ssh (port forwarding, ssh -X...) / scp (rsync, sshfs, fish...)
+       - "putty" / "winscp"
+╻  ┏━┓   ╺┳╸┏━╸┏━┓┏┳┓╻┏┓╻┏━┓╻     ╻╻
+┃  ┣━┫    ┃ ┣╸ ┣┳┛┃┃┃┃┃┗┫┣━┫┃     ┃┃
+┗━╸╹ ╹    ╹ ┗━╸╹┗╸╹ ╹╹╹ ╹╹ ╹┗━╸   ╹╹━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   * Intèrprets:
+     - bash
+     - altres (csh, zsh, ipython...)
+
+   * Comandes bàsiques:
+     - touch, cat, ln (-s), ls, rm, mkdir, cd, rmdir...
+     - find, cat, grep, head, tail, sed (awk, perl, php, python, node...)
+     - man (RTFM!!) (man bash / man man ...)
+
+   * Altres comandes:
+     - dict (dict RTFM)
+     - ip / ifconfig / route (+...)
+     - Específcs de cada distribució (apt/dpkg, rpm...)
+
+   * Expressions regulars: ( http://www.regular-expressions.info/ )
+     - POSIX (Standard, ampliament soportades).
+     - Perl (Més potents, sintaxi més amigable IMHO (dict IMHO)).
+
+   * Més: Google is your friend!! (Capitan Obvious)
 
 
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+
+                   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                   ░░░░░░░░░░░░░░░▀█▀░█▄█░█░█░█░█░░░░░░░░░░░░░░░
+                   ░░░░░░░░░░░░░░░░█░░█░█░█░█░▄▀▄░░░░░░░░░░░░░░░
+                   ░░░░░░░░░░░░░░░░▀░░▀░▀░▀▀▀░▀░▀░░░░░░░░░░░░░░░
+                   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+                          TMUX - Terminal Multiplexor
+
+
+
+
+
+
+
+
+
+╺┳╸┏┳┓╻ ╻╻ ╻
+ ┃ ┃┃┃┃ ┃┏╋┛
+ ╹ ╹ ╹┗━┛╹ ╹ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+--------------------------------------------------------------------------------------------
+    Url: http://www.youtube.com/watch?v=JXwS7z6Dqic
+
+    Breu: http://breu.bulma.net/?l17083 
+
+mplayer -fs "Using tmux for productive mouse-free programming - YouTube.mp4" 2>&1 >/dev/null
+--------------------------------------------------------------------------------------------
+
+    =============
+    Bibliografia:
+    =============
+
+      Títol:"tmux: Productive Mouse-Free Development"
+      Web: http://www.bphogan.com/2012/06/15/tmux/
+      Autor: Brian P. Hogan - http://it-ebooks.info/author/224/
+      Descàrrega:
+            pdf: http://it-ebooks.info/book/2709/
+            eBook: A la web (DRM free) / Amazon (més barat*)
+
+
+╺┳╸┏┳┓╻ ╻╻ ╻   ╻╻
+ ┃ ┃┃┃┃ ┃┏╋┛   ┃┃
+ ╹ ╹ ╹┗━┛╹ ╹   ╹╹ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Característiques:
+=================
+
+   * Administrador de finestres (ttys completament funcionals) en mode text.
+   * Connexió / desconnexió remota sense tancar la sessió.
+   * Divisió de les finestres en panells.
+   * Altament personalitzable i més senzill que screen.
+   * Tmuxinator.
+   
+tmux VS screen
+==============
+
+   * Divisió de la finestra en panells.
+      (screen només permetia dividir el viewport)
+
+   * Hacks:                          (curiositat, no té interés...)
+      - scl (screen)
+         https://github.com/bitifet/homedir/blob/master/bin/scl
+      - tml (ALTAMENT EXPERIMENTAL - i absolutament innecessari :-P - )
+         https://github.com/bitifet/homedir/blob/master/bin/tml
+
+
+
+
+
+
+
+
+
+                   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                   ░░░░░░░░░░░░░░░░░█░█░▀█▀░█▄█░░░░░░░░░░░░░░░░░
+                   ░░░░░░░░░░░░░░░░░▀▄▀░░█░░█░█░░░░░░░░░░░░░░░░░
+                   ░░░░░░░░░░░░░░░░░░▀░░▀▀▀░▀░▀░░░░░░░░░░░░░░░░░
+                   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+                                Vim (Vi-improved)
+
+
+
+
+
+
+
+
+╻ ╻╻┏┳┓
+┃┏┛┃┃┃┃
+┗┛ ╹╹ ╹━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+  * Vimtutor
+
+  * Vim Recipes
+
+
+
+
+  (ECOL)
+
+http://www.tiraecol.net/modules/comic/comic.php?content_id=3
+                                                              display tiraecol-3.jpg
+
+http://www.tiraecol.net/modules/comic/comic.php?content_id=10
+                                                              display tiraecol-10.gif
+
+
+
+  * gvim
 
 
 
@@ -47,6 +223,46 @@
 
 
 
+
+
+figlet -f future "Vim"
+
+ 
+╺┳╸┏┳┓╻ ╻╻ ╻   ╻╻
+ ┃ ┃┃┃┃ ┃┏╋┛   ┃┃
+ ╹ ╹ ╹┗━┛╹ ╹   ╹╹
+figlet -f future "TMUX II"
+╺┳╸┏┳┓╻ ╻╻ ╻
+ ┃ ┃┃┃┃ ┃┏╋┛
+ ╹ ╹ ╹┗━┛╹ ╹
+figlet -f future "Tmux"
+
+
+
+
+┃  ┏━┃  ━┏┛┏━┛┏━┃┏┏ ┛┏━ ┏━┃┃  
+┃  ┏━┃   ┃ ┏━┛┏┏┛┃┃┃┃┃ ┃┏━┃┃  
+━━┛┛ ┛   ┛ ━━┛┛ ┛┛┛┛┛┛ ┛┛ ┛━━┛
+figlet -f emboss "La terminal"
+
+
+░█░░░█▀█░░░▀█▀░█▀▀░█▀▄░█▄█░▀█▀░█▀█░█▀█░█░░
+░█░░░█▀█░░░░█░░█▀▀░█▀▄░█░█░░█░░█░█░█▀█░█░░
+░▀▀▀░▀░▀░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀
+figlet -f pagga "La terminal"
+
+
+
+░▀█▀░█▄█░█░█░█░█
+░░█░░█░█░█░█░▄▀▄
+░░▀░░▀░▀░▀▀▀░▀░▀
+figlet -f pagga "TMUX"
+
+
+░█░█░▀█▀░█▄█
+░▀▄▀░░█░░█░█
+░░▀░░▀▀▀░▀░▀
+figlet -f pagga "Vim"
 
 
 **
