@@ -36,10 +36,10 @@
                    ░░▀▀▀░▀░▀░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░░
                    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
+                      Tot-hom sap comunicar-se per senyes.
+                En canvi, tots preferim fer servir el llenguatge...
 
-
-
-
+                  El llenguatge ens dona molta més expressivitat.
 
 
 
@@ -55,7 +55,7 @@
     * Terminal VS entorn gràfic.
 
     * Filosofia *Unix.
-       - Tot és un fitxer (stdin / stdout / stderr / /dev / /proc / pipes...).
+       - Tot és un fitxer (stdin, stdout, stderr), /dev, /proc, pipes...
 
     * Tipus de terminal
        - tty(s)
@@ -79,7 +79,7 @@
      - altres (csh, zsh, ipython...)
 
    * Comandes bàsiques:
-     - touch, cat, ln (-s), ls, rm, mkdir, cd, rmdir...
+     - echo, cat, touch, ln (-s), ls, rm, mkdir, cd, rmdir...
      - find, cat, grep, head, tail, sed (awk, perl, php, python, node...)
      - man (RTFM!!) (man bash / man man ...)
 
@@ -194,156 +194,97 @@ tmux VS screen
 ┃┏┛┃┃┃┃
 ┗┛ ╹╹ ╹━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+  * Origens: vi-improved (vim)
 
-  * Vimtutor
+  * Sabors: vim / gvim / (futur?) neovim (http://bit.ly/1c1K4qe)
 
-  * Vim Recipes
+  * Inconvenients:
+     - Corba d'aprenentatge ALTA (com totes les eines potents).
+     - Vimscript.
 
+  * Avantatges:
+     - TOTES les de qualsevol altre editor:
+       (Resaltat de sintaxi, snippets, folding, macros...)
 
+     - Agilitat, escalabilitat, extensibilitat...
+       (Tot coses que podem trobar també en alguns altres editors ...especialment Emacs)
 
+     - Editor modal:
+       (L'equivalent a dur la mà al ratolí és pitjar [Esc] SENSE llevar les mans del teclat)
 
-  (ECOL)
+     - Operacions simples combinables (accións aplicables a objectes i/o moviments)
+       («Why Atom Can't Replace Vim» http://medium.com/p/433852f4b4d1)
+╻ ╻╻┏┳┓   ╻╻
+┃┏┛┃┃┃┃   ┃┃
+┗┛ ╹╹ ╹   ╹╹━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-http://www.tiraecol.net/modules/comic/comic.php?content_id=3
-                                                              display tiraecol-3.jpg
 
-http://www.tiraecol.net/modules/comic/comic.php?content_id=10
-                                                              display tiraecol-10.gif
+  * Perquè Vim i no Emacs?
+     - http://www.tiraecol.net/modules/comic/comic.php?content_id=3
+       display tiraecol-3.jpg
+     - http://www.tiraecol.net/modules/comic/comic.php?content_id=10
+       display tiraecol-10.gif
 
+  * No Emacs?
+     - http://orgmode.org/features.html
+     - Però cerqui, compari... ;-)
 
+  * The power of Text!!
+    - Documents (markdown, rEstructuredText...)
+    - Taules: csv
+    - Integració amb la terminal:
+        Execució:  :sh (shell) :! (qualsevol comanda + Filtrat!!)
+        Captura:   :r (Fitxer)  - :r! (Stdout comanda)
+        
 
-  * gvim
 
+╻ ╻╻┏┳┓   ╻╻╻
+┃┏┛┃┃┃┃   ┃┃┃                                                   Còm en puc aprendre?
+┗┛ ╹╹ ╹   ╹╹╹━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  
 
+  * Iniciació:
 
+     - Vimtutor
+       http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor
+       (o apt-get install vimtutor)
 
 
+  * Iniciats:
 
+     - "Vim Recipes" (Bram Moolenar - Autor de Vim).
+       http://ebooksgo.org/computer/vim-recipes.pdf
 
 
+  * Per tot el demés...
 
 
+                                      ｈｔｔｐ：／／ｖｉｍ．ｏｒｇ
 
 
-figlet -f future "Vim"
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                ┏━┓┏━╸╺┳╸╻╺┳╸┏━┓   ╺┳┓┏━╸┏┳┓┏━┓┏━┓╺┳╸┏━┓┏━┓┏━╸╻┏━┓
+                ┣━┛┣╸  ┃ ┃ ┃ ┣━┫    ┃┃┣╸ ┃┃┃┃ ┃┗━┓ ┃ ┣┳┛┣━┫┃  ┃┃ ┃
+                ╹  ┗━╸ ╹ ╹ ╹ ╹ ╹   ╺┻┛┗━╸╹ ╹┗━┛┗━┛ ╹ ╹┗╸╹ ╹┗━╸╹┗━┛
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- 
-╺┳╸┏┳┓╻ ╻╻ ╻   ╻╻
- ┃ ┃┃┃┃ ┃┏╋┛   ┃┃
- ╹ ╹ ╹┗━┛╹ ╹   ╹╹
-figlet -f future "TMUX II"
-╺┳╸┏┳┓╻ ╻╻ ╻
- ┃ ┃┃┃┃ ┃┏╋┛
- ╹ ╹ ╹┗━┛╹ ╹
-figlet -f future "Tmux"
 
 
 
 
-┃  ┏━┃  ━┏┛┏━┛┏━┃┏┏ ┛┏━ ┏━┃┃  
-┃  ┏━┃   ┃ ┏━┛┏┏┛┃┃┃┃┃ ┃┏━┃┃  
-━━┛┛ ┛   ┛ ━━┛┛ ┛┛┛┛┛┛ ┛┛ ┛━━┛
-figlet -f emboss "La terminal"
 
 
-░█░░░█▀█░░░▀█▀░█▀▀░█▀▄░█▄█░▀█▀░█▀█░█▀█░█░░
-░█░░░█▀█░░░░█░░█▀▀░█▀▄░█░█░░█░░█░█░█▀█░█░░
-░▀▀▀░▀░▀░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀
-figlet -f pagga "La terminal"
 
 
 
-░▀█▀░█▄█░█░█░█░█
-░░█░░█░█░█░█░▄▀▄
-░░▀░░▀░▀░▀▀▀░▀░▀
-figlet -f pagga "TMUX"
 
 
-░█░█░▀█▀░█▄█
-░▀▄▀░░█░░█░█
-░░▀░░▀▀▀░▀░▀
-figlet -f pagga "Vim"
 
 
-**
 
 
 
 
 
-
-**
-
-
-
-
-
-figlet -f future "La terminal"
-
-
-
-
-
-figlet -f smbraille "Productivitat"
-figlet -f smbraille "amb Vim i Tmux"
-
-
-
-
-figlet -f smmono9 "Betabeers Palma XIV"
-
-░█▀█░█▀▄░█▀█░█▀▄░█░█░█▀▀░▀█▀░▀█▀░█░█░▀█▀░▀█▀░█▀█░▀█▀
-░█▀▀░█▀▄░█░█░█░█░█░█░█░░░░█░░░█░░▀▄▀░░█░░░█░░█▀█░░█░
-░▀░░░▀░▀░▀▀▀░▀▀░░▀▀▀░▀▀▀░░▀░░▀▀▀░░▀░░▀▀▀░░▀░░▀░▀░░▀░
-
-figlet -f pagga "Productivitat"
-
-
-
-
-                                                                                
-                                                                                
-                                                                                
-
-                                                                                
- ▐                                                                              
-                                                                                
-                                                                                
-figlet -f smmono9 '.-------------------'
-
-
-
-
-░█▀▄░█▀▀░▀█▀░█▀█░█▀▄░█▀▀░█▀▀░█▀▄░█▀▀░░░█▀█░█▀█░█░░░█▄█░█▀█░░░█░█░▀█▀░█░█
-░█▀▄░█▀▀░░█░░█▀█░█▀▄░█▀▀░█▀▀░█▀▄░▀▀█░░░█▀▀░█▀█░█░░░█░█░█▀█░░░▄▀▄░░█░░▀▄▀
-░▀▀░░▀▀▀░░▀░░▀░▀░▀▀░░▀▀▀░▀▀▀░▀░▀░▀▀▀░░░▀░░░▀░▀░▀▀▀░▀░▀░▀░▀░░░▀░▀░▀▀▀░░▀░
-figlet -f pagga "Betabeers Palma XIV"
-
-
-▛▀▖   ▐     ▌               ▛▀▖   ▜         ▌ ▌▜▘▌ ▌
-▙▄▘▞▀▖▜▀ ▝▀▖▛▀▖▞▀▖▞▀▖▙▀▖▞▀▘ ▙▄▘▝▀▖▐ ▛▚▀▖▝▀▖ ▝▞ ▐ ▚▗▘
-▌ ▌▛▀ ▐ ▖▞▀▌▌ ▌▛▀ ▛▀ ▌  ▝▀▖ ▌  ▞▀▌▐ ▌▐ ▌▞▀▌ ▞▝▖▐ ▝▞ 
-▀▀ ▝▀▘ ▀ ▝▀▘▀▀ ▝▀▘▝▀▘▘  ▀▀  ▘  ▝▀▘ ▘▘▝ ▘▝▀▘ ▘ ▘▀▘ ▘ 
-figlet -f smblock "Betabeers Palma XIV"
-
-
-                                                                            
-
-
- ⣏⡱ ⢀⡀ ⣰⡀ ⢀⣀ ⣇⡀ ⢀⡀ ⢀⡀ ⡀⣀ ⢀⣀   ⣏⡱ ⢀⣀ ⡇ ⣀⣀  ⢀⣀   ⢇⡸ ⡇ ⡇⢸
- ⠧⠜ ⠣⠭ ⠘⠤ ⠣⠼ ⠧⠜ ⠣⠭ ⠣⠭ ⠏  ⠭⠕   ⠇  ⠣⠼ ⠣ ⠇⠇⠇ ⠣⠼   ⠇⠸ ⠇ ⠸⠃
-figlet -f smbraille "Betabeers Palma XIV"
-
-
-
-
- ⣏⡱ ⡀⣀ ⢀⡀ ⢀⣸ ⡀⢀ ⢀⣀ ⣰⡀ ⠄ ⡀⢀ ⠄ ⣰⡀ ⢀⣀ ⣰⡀
- ⠇  ⠏  ⠣⠜ ⠣⠼ ⠣⠼ ⠣⠤ ⠘⠤ ⠇ ⠱⠃ ⠇ ⠘⠤ ⠣⠼ ⠘⠤
-figlet -f smbraille "Productivitat"
-
-
- ⢀⣀ ⣀⣀  ⣇⡀   ⡇⢸ ⠄ ⣀⣀    ⠄   ⢹⠁ ⣀⣀  ⡀⢀ ⡀⢀
- ⠣⠼ ⠇⠇⠇ ⠧⠜   ⠸⠃ ⠇ ⠇⠇⠇   ⠇   ⠸  ⠇⠇⠇ ⠣⠼ ⠜⠣
-figlet -f smbraille "amb Vim i Tmux"
 
 
