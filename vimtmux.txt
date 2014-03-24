@@ -78,7 +78,7 @@
      - bash
      - altres (csh, zsh, ipython...)
 
-   * Comandes bàsiques:
+   * Comandes bàsiques (xxxx):
      - echo, cat, touch, ln (-s), ls, rm, mkdir, cd, rmdir...
      - find, cat, grep, head, tail, sed (awk, perl, php, python, node...)
      - man (RTFM!!) (man bash / man man ...)
@@ -220,10 +220,12 @@ tmux VS screen
 
 
   * Perquè Vim i no Emacs?
+     - Emacs no és modal.
      - http://www.tiraecol.net/modules/comic/comic.php?content_id=3
-       display tiraecol-3.jpg
+       shotwell tiraecol-3.jpg
      - http://www.tiraecol.net/modules/comic/comic.php?content_id=10
-       display tiraecol-10.gif
+       shotwell tiraecol-10.jpg
+     - With Emacs you can't do :Sex ;-)
 
   * No Emacs?
      - http://orgmode.org/features.html
@@ -235,8 +237,6 @@ tmux VS screen
     - Integració amb la terminal:
         Execució:  :sh (shell) :! (qualsevol comanda + Filtrat!!)
         Captura:   :r (Fitxer)  - :r! (Stdout comanda)
-        
-
 
 ╻ ╻╻┏┳┓   ╻╻╻
 ┃┏┛┃┃┃┃   ┃┃┃                                                   Còm en puc aprendre?
@@ -254,13 +254,13 @@ tmux VS screen
 
      - "Vim Recipes" (Bram Moolenar - Autor de Vim).
        http://ebooksgo.org/computer/vim-recipes.pdf
+     - :h
 
 
   * Per tot el demés...
 
 
                                       ｈｔｔｐ：／／ｖｉｍ．ｏｒｇ
-
 
     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
                 ┏━┓┏━╸╺┳╸╻╺┳╸┏━┓   ╺┳┓┏━╸┏┳┓┏━┓┏━┓╺┳╸┏━┓┏━┓┏━╸╻┏━┓
