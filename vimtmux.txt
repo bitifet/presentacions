@@ -262,7 +262,7 @@ tmux VS screen
 
                                       ｈｔｔｐ：／／ｖｉｍ．ｏｒｇ
 
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━,━━━━━━━━━━━━━━━━━━━
                 ┏━┓┏━╸╺┳╸╻╺┳╸┏━┓   ╺┳┓┏━╸┏┳┓┏━┓┏━┓╺┳╸┏━┓┏━┓┏━╸╻┏━┓
                 ┣━┛┣╸  ┃ ┃ ┃ ┣━┫    ┃┃┣╸ ┃┃┃┃ ┃┗━┓ ┃ ┣┳┛┣━┫┃  ┃┃ ┃
                 ╹  ┗━╸ ╹ ╹ ╹ ╹ ╹   ╺┻┛┗━╸╹ ╹┗━┛┗━┛ ╹ ╹┗╸╹ ╹┗━╸╹┗━┛
@@ -280,6 +280,50 @@ tmux VS screen
 
 
 
+
+
+
+
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┏━╸┏┓╻╻  ╻  ┏━┓┏━╸┏━┓┏━┓
+┣╸ ┃┗┫┃  ┃  ┣━┫┃  ┃ ┃┗━┓
+┗━╸╹ ╹┗━╸┗━╸╹ ╹┗,╸┗━┛┗━┛━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  * Resum:
+     - Aquesta presentació:
+     - Manual expressions regulars:
+        http://www.regular-expressions.info
+     - Tmux (llibre i vídeo):
+        http://www.bphogan.com/2012/06/15/tmux/
+     - Vim:
+        VimTutor: http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor
+        Vim Recipes: http://ebooksgo.org/computer/vim-recipes.pdf
+        Article «Why Atom Can't Replace Vim» http://medium.com/p/433852f4b4d1
+        Neovim: http://bit.ly/1c1K4qe
+     - Altres:
+        Org Mode (Emacs): http://orgmode.org/features.html
+        Tira Ecol: http://www.tiraecol.net
+     - La meva configuració de tmux i vim (no necessàriament la millor :-)):
+            https://github.com/bitifet/homedir
+
+  * Vim + Python i Markdown...
+         http://joedicastro.com/category/blog.html
+
+
+
+
+
+                                                  
+            ▗▄▄▖                                          ▄▄▖ 
+            ▐▛▀▜▖                          ▐▌            ▐▀▀█ 
+            ▐▌ ▐▌ █▟█▌ ▟█▙  ▟█▟▌▐▌ ▐▌▐▙██▖▐███  ▟█▙ ▗▟██▖  ▗▛ 
+            ▐██▛  █▘  ▐▙▄▟▌▐▛ ▜▌▐▌ ▐▌▐▛ ▐▌ ▐▌  ▐▙▄▟▌▐▙▄▖▘ ▗█▘ 
+            ▐▌    █   ▐▛▀▀▘▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌ ▐▌  ▐▛▀▀▘ ▀▀█▖ ▐▌  
+            ▐▌    █   ▝█▄▄▌▝█▄█▌▐▙▄█▌▐▌ ▐▌ ▐▙▄ ▝█▄▄▌▐▄▄▟▌ ▗▖  
+            ▝▘    ▀    ▝▀▀  ▞▀▐▌ ▀▀▝▘▝▘ ▝▘  ▀▀  ▝▀▀  ▀▀▀  ▝▘  
+                            ▜█▛▘                              
+                                                          
 
 
 
