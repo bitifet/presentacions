@@ -292,6 +292,7 @@ tmux VS screen
 
   * Resum:
      - Aquesta presentació:
+        https://github.com/bitifet/presentacions/tree/master/Betabeers/VimTmux
      - Manual expressions regulars:
         http://www.regular-expressions.info
      - Tmux (llibre i vídeo):
@@ -309,7 +310,6 @@ tmux VS screen
 
   * Vim + Python i Markdown...
          http://joedicastro.com/category/blog.html
-
 
 
 
