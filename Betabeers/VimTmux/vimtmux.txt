@@ -203,13 +203,13 @@ tmux VS screen
      - Vimscript.
 
   * Avantatges:
-     - TOTES les de qualsevol altre editor:
+     - TOTS els de qualsevol altre editor:
        (Resaltat de sintaxi, snippets, folding, macros...)
 
      - Agilitat, escalabilitat, extensibilitat...
        (Tot coses que podem trobar també en alguns altres editors ...especialment Emacs)
 
-     - Editor modal:
+     - Editor modal: (:h vim-modes) (normal, insert, visual...)
        (L'equivalent a dur la mà al ratolí és pitjar [Esc] SENSE llevar les mans del teclat)
 
      - Operacions simples combinables (accións aplicables a objectes i/o moviments)
@@ -239,9 +239,33 @@ tmux VS screen
         Captura:   :r (Fitxer)  - :r! (Stdout comanda)
 
 ╻ ╻╻┏┳┓   ╻╻╻
-┃┏┛┃┃┃┃   ┃┃┃                                                   Còm en puc aprendre?
+┃┏┛┃┃┃┃   ┃┃┃                                                             Ecosistema
 ┗┛ ╹╹ ╹   ╹╹╹━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  
+
+  * Netrw (:h netrw). / També NerdTree (plugin)
+
+  * Mapeig de tecles (:h map).
+
+  * Comandes personalitzades (:h command).
+
+  * Macros (:h q)
+
+  * Marcadors (:h m) (mark & motion!!)
+
+  * Més de 4800 plugins de tota casta: (http://vim.org/scripts)
+    - Autocompletat: Surround, SnipMate, Closetag, NERDCommenter...
+    - Específics per tipus de fitxer: vim-outliner, csv, markdown...
+    - VIDE: http://www.vim.org/scripts/script.php?script_id=4898
+    - VCS: Fugitive (Git), vcscommand (múltiples)...
+    - Altres: Pathogen (vim package manager), LargeFile (també vim -b)...
+
+  * Mode hexadecimal: :%!xxd / :%!xxd -r  (FAKE)
+
+  * I molt més: % / ? * #...
+╻ ╻╻┏┳┓   ╻╻ ╻
+┃┏┛┃┃┃┃   ┃┃┏┛                                                  Còm en puc aprendre?
+┗┛ ╹╹ ╹   ╹╹┛ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
   * Iniciació:
 
