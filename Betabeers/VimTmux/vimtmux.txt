@@ -21,11 +21,11 @@
 
 
  
-                                                            Joan Miquel Torres
-                                                          Twitter: @joanmitter
-                                                       Email: joanmi@bulma.net
+                                                           Joan Miquel Torres
+                                                         Twitter: @joanmitter
+                                                      Email: joanmi@bulma.net
  
-  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▘
+ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▘
 
 
 
@@ -37,17 +37,16 @@
 
 
 
-                   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-                   ░░█░░░█▀█░░░▀█▀░█▀▀░█▀▄░█▄█░▀█▀░█▀█░█▀█░█░░░░
-                   ░░█░░░█▀█░░░░█░░█▀▀░█▀▄░█░█░░█░░█░█░█▀█░█░░░░
-                   ░░▀▀▀░▀░▀░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░░
-                   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                  ░░█░░░█▀█░░░▀█▀░█▀▀░█▀▄░█▄█░▀█▀░█▀█░█▀█░█░░░░
+                  ░░█░░░█▀█░░░░█░░█▀▀░█▀▄░█░█░░█░░█░█░█▀█░█░░░░
+                  ░░▀▀▀░▀░▀░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░░
+                  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-                      Tot-hom sap comunicar-se per senyes.
-                En canvi, tots preferim fer servir el llenguatge...
+                     Tot-hom sap comunicar-se per senyes.
+               En canvi, tots preferim fer servir el llenguatge...
 
-                  El llenguatge ens dona molta més expressivitat.
-
+                 El llenguatge ens dona molta més expressivitat.
 
 
 
@@ -304,7 +303,7 @@ tmux VS screen
 
   * Mode hexadecimal: :%!xxd / :%!xxd -r  (FAKE)
 
-  * I molt més: % / ? * #...
+  * I molt més: % / ? * # g(g; t, gg G gf) ^o ^O...
 
 
 ╻ ╻╻┏┳┓   ╻╻ ╻
