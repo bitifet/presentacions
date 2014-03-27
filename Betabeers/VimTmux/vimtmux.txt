@@ -59,7 +59,6 @@
 ┗━╸╹ ╹    ╹ ┗━╸╹┗╸╹ ╹╹╹ ╹╹ ╹┗━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-
     * Què és?
 
     * Terminal VS entorn gràfic.
@@ -74,13 +73,14 @@
        - screen / tmux
        - "cygwin"
 
+    * Unicode, codis ANSI...
+
     * Editors
        - vi(m) / Emacs (Altres herbes: nano / pico / joe...)
 
     * Accés remot
        - ssh (port forwarding, ssh -X...) / scp (rsync, sshfs, fish...)
        - "putty" / "winscp"
-
 
 ╻  ┏━┓   ╺┳╸┏━╸┏━┓┏┳┓╻┏┓╻┏━┓╻     ╻╻
 ┃  ┣━┫    ┃ ┣╸ ┣┳┛┃┃┃┃┃┗┫┣━┫┃     ┃┃
