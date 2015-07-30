@@ -7,6 +7,7 @@ var Options = {
     "defaults.help.examples.get": [{}],
 };
 
+var People = {} // Some people data... (removed)
 
 var myApi = {
     hello: {
@@ -16,8 +17,16 @@ var myApi = {
                 meta: {title: "Hello Demo"},
             };
         },
-        /*/help: "Hello World Betabeers!!!", //*/
+        //help: "Hello World Betabeers!!!",
+        /*
+        form: [
+            'select(name="hello")',
+            '   option(data-from="people",data-path="Emprendedor",data-key="name")',
+        ],
+        //*/
+            
     },
+    /*
     delay: {
         _get: function(input) {
             return new Promise(function(resolve, reject) {
@@ -36,6 +45,30 @@ var myApi = {
             , "input(name=time)"
         ],
     },
+    //*/
+    /*
+    people: {
+        _get: function(input) {
+            return new Promise(function(resolve, reject) {
+                var out = {};
+                for (var ctg in People) {
+                    out[ctg] = [];
+                    for (var name in People[ctg]) {
+                        var reg = People[ctg][name];
+                        out[ctg].push({
+                            name: name,
+                            buscaSocio: reg.buscaSocio ? "Sí" : "No",
+                            reg: reg,
+                        });
+                    };
+                };
+                resolve(out);
+            });
+        },
+        help: "Asistentes betabeers (Hola!)",
+    },
+    //*/
+
 };
 
 module.exports = Pasar(myApi, Options);

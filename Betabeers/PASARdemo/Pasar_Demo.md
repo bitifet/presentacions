@@ -35,6 +35,12 @@ Bibliography
         - GitHub: https://github.com/getify/You-Dont-Know-JS
 
 
+    * This document:
+
+        --------------------------------------------------------------------------------------
+        https://github.com/bitifet/presentacions/blob/master/Betabeers/PASARdemo/Pasar_Demo.md
+        --------------------------------------------------------------------------------------
+
 Pasar
 =====
 
