@@ -32,6 +32,9 @@ var myApi = {
                 "Lo siento, os he engañado: Éste tiene algunas cositas mas ",
                 "pero el ejemplo que os he mostrado es totalmente funcional.",
             ],
+            methods: {
+                put: "Future put implementation."
+            },
         },
         form: [
             "p",
