@@ -2,8 +2,6 @@
 
 var Pasar = require("pasar");
 
-
-
 var Options = {
     // Automatically provide all your functions help with simple example:
     "defaults.help.examples.get": [{}],
@@ -100,7 +98,7 @@ var myApi = {
         ],
     },//}}}
 
-    race: {
+    race: {//{{{
         _get: function(){
             var pDrunks = this.drunks.get({});
             return new Promise(function(resolve, reject){
@@ -123,10 +121,7 @@ var myApi = {
                 });
             });
         },
-    },
-
-
-
+    },//}}}
 
 };
 
