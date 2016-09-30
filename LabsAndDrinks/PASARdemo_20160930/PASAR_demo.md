@@ -90,7 +90,7 @@ Testing
   * [http://localhost:3000/api/drink.html?liquor=wine]
   * [http://localhost:3000/api/drink.json?liquor=Vodka] (Default)
   * [http://localhost:3000/api/drink.csv?liquor=beer]
-  * [http://localhost:3000/api/drink.xlsx?liquor=beer] (Oooops!!)
+  * [http://localhost:3000/api/drink.xlsx?liquor=beer]
 
 
   * [http://localhost:3000/api/drink.raw?liquor=beer]
@@ -121,6 +121,11 @@ Advanced
 
 
   * Response Mapper: [https://github.com/bitifet/pasar/blob/master/lib/defaultResponseMapper.js]
+
+
+  * Output filters: 
+    - function loadFilters(): [https://github.com/bitifet/pasar/blob/master/lib/formatters.js]
+    - Ejemplo (.html): [https://github.com/bitifet/pasar/blob/master/lib/fmt/html.js]
 
 
   * TO-DO: [https://www.npmjs.com/package/pasar#TODO]
