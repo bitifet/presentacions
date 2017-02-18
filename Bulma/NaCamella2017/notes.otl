@@ -33,6 +33,11 @@ Diapos
 
 
 Notes
+	* Drafts:
+		Dir "No ho sé fer" i que ho faci el tècnic no costa res.
+			 * Els "clicks" en interfícies gràfiques son molt mal d'automatitzar.
+			 * Les comandes son molt fàcil de repetir.
+			 * I si t'emprenyen molt els pots posar un botó perquè l'executin ells.
 	* Anècdotes:
 		IDE a servidor producció.
 		Vmware a quad-core amb kernel no-smp vmx desactivat
